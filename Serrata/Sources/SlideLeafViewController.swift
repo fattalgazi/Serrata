@@ -27,9 +27,9 @@ public final class SlideLeafViewController: UIViewController {
         return true
     }
 
-    public override func prefersHomeIndicatorAutoHidden() -> Bool {
-        return isPrefersHomeIndicatorAutoHidden
-    }
+//    public override func prefersHomeIndicatorAutoHidden() -> Bool {
+//        return isPrefersHomeIndicatorAutoHidden
+//    }
 
     public override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
